@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #ffd1dc;
+  padding: 20px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #ff66cc;
+  font-family: 'Mochiy Pop One', sans-serif;
+  -webkit-text-stroke: 1px white; /* White outline */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+.social-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a img {
+  width: 24px;
+  height: 24px;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ff66cc;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 0 0 220px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #ff66cc;
+  text-shadow: 4px 4px 5px #dcdcdc;
+}
+
+.card p {
+  margin: 0 0 15px;
+  color: #333;
+  flex-grow: 1;
+}
+
+.card button {
+  background-color: #ff66cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: 5px; /* Adjust the bottom margin to set button's fixed distance from card bottom */
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #ff99cc;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.3s;
+}
+
+.modal.show {
+  animation: scaleUp 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+      transform: scale(0.7);
+  }
+  to {
+      transform: scale(1);
+  }
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  position: relative;
+  animation: popIn 0.3s;
+}
+
+@keyframes popIn {
+  from {
+      transform: scale(0.7);
+  }
+  to {
+      transform: scale(1);
+  }
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
