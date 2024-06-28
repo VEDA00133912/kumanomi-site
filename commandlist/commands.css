@@ -22,7 +22,7 @@ header h1 {
   font-size: 24px;
   color: #ff66cc;
   font-family: 'Mochiy Pop One', sans-serif;
-  -webkit-text-stroke: 1px white; /* White outline */
+  -webkit-text-stroke: 1px white;
 }
 
 nav ul {
@@ -117,7 +117,7 @@ h2 {
   cursor: pointer;
   font-size: 14px;
   margin-top: auto;
-  margin-bottom: 5px; /* Adjust the bottom margin to set button's fixed distance from card bottom */
+  margin-bottom: 5px; 
   transition: background-color 0.3s ease;
 }
 
@@ -193,4 +193,43 @@ h2 {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd1dc;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: opacity 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#back-to-top img {
+  width: 60px;
+  height: 60px;
+}
+
+#back-to-top span {
+  margin-top: 5px;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: gray;
+  font-size: 12px;
+}
+
+#back-to-top:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible;
 }
