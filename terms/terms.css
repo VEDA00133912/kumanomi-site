@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #febe69; /* オレンジ系の色に変更 */
+  background-color: #febe69; 
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
   display: flex;
@@ -20,7 +20,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 24px;
-  color: #ff8c00; /* テキストカラーを少し濃いオレンジに */
+  color: #ff8c00; 
   font-family: 'Mochiy Pop One', sans-serif;
   -webkit-text-stroke: 1px white; 
 }
@@ -65,7 +65,7 @@ main {
 
 .terms h3, .policy h3 {
   font-family: 'Mochiy Pop One', sans-serif;
-  color: #ff8c00; /* テーマに合わせたオレンジ色 */
+  color: #ff8c00; 
   margin-bottom: 20px;
 }
 
@@ -92,7 +92,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #febe69; /* オレンジ系の色に変更 */
+  background-color: #febe69; 
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
