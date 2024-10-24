@@ -1,3 +1,3 @@
-えむbotのサイトです
+くまのみぼっとのサイトです
 
-https://emubot.glitch.me/index.html
+https://veda00133912.github.io/kumanomi-site/
