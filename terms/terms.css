@@ -5,11 +5,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
-  color: #333;
+  color: #333333;
 }
 
 header {
-  background-color: #ffd1dc;
+  background-color: #fcc497;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
   display: flex;
@@ -38,9 +38,9 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #333333;
   font-weight: bold;
-  text-shadow: 1px 1px 2px #fff;
+  text-shadow: 1px 1px 2px #ffffff;
 }
 
 .social-links {
@@ -65,7 +65,7 @@ main {
 
 .terms h2 {
   font-family: 'Mochiy Pop One', sans-serif;
-  color: #ff66cc;
+  color: #febe69;
   margin-bottom: 20px;
 }
 
@@ -92,7 +92,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffd1dc;
+  background-color: #fcc497;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
