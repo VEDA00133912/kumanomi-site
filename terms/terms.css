@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #fcc497;
+  background-color: #febe69; /* オレンジ系の色に変更 */
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
   display: flex;
@@ -20,7 +20,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 24px;
-  color: #ff66cc;
+  color: #ff8c00; /* テキストカラーを少し濃いオレンジに */
   font-family: 'Mochiy Pop One', sans-serif;
   -webkit-text-stroke: 1px white; 
 }
@@ -58,18 +58,18 @@ main {
   padding: 20px;
 }
 
-.terms {
+.terms, .policy {
   text-align: center;
   margin-top: 40px;
 }
 
-.terms h2 {
+.terms h3, .policy h3 {
   font-family: 'Mochiy Pop One', sans-serif;
-  color: #febe69;
+  color: #ff8c00; /* テーマに合わせたオレンジ色 */
   margin-bottom: 20px;
 }
 
-.terms-box {
+.terms-box, .policy-box {
   border: 1px solid #eaeaea;
   border-radius: 10px;
   padding: 20px;
@@ -77,7 +77,7 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.terms p {
+.terms p, .policy p {
   font-family: 'Kosugi Maru', sans-serif;
   color: #333333;
   font-size: 14px;
@@ -92,7 +92,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fcc497;
+  background-color: #febe69; /* オレンジ系の色に変更 */
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
