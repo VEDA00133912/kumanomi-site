@@ -50,30 +50,30 @@
             </div>
             
             <div class="card">
-                <h3>/announce</h3>
-                <p>アナウンスの作成</p>
+                <h3>/icon</h3>
+                <p>アイコンの表示</p>
                 <button class="detail-btn" onclick="openModal('modal2')">詳細を見る</button>
             </div>
             <div id="modal2" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal2')">&times;</span>
-                    <h3>/announce</h3>
-                    <p>えむのアプデ等のアナウンスをするためのチャンネルを作成します</p>
-                    <p><strong>使い方</strong><br>/announce<br>※権限がない場合は付与してください</p>
+                    <h3>/icon</h3>
+                    <p>指定した人のアイコンを表示します</p>
+                    <p><strong>使い方</strong><br>/icon [@user]</p>
                 </div>
             </div>
             
             <div class="card">
-                <h3>/icon</h3>
-                <p>ユーザーアイコンを表示</p>
+                <h3>/5000choyen</h3>
+                <p>5000兆円欲しい生成</p>
                 <button class="detail-btn" onclick="openModal('modal3')">詳細を見る</button>
             </div>
             <div id="modal3" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal3')">&times;</span>
-                    <h3>/icon</h3>
-                    <p>指定されたユーザーのアイコンを表示します</p>
-                    <p><strong>使い方</strong><br>/icon (表示したいユーザーをメンション)</p>
+                    <h3>/500choyen</h3>
+                    <p>指定された言葉で5000兆円欲しい画像を生成します</p>
+                    <p><strong>使い方</strong><br>/500choyen [top(上部文字列)][bottom(下部文字列)]</p>
                 </div>
             </div>
 
@@ -87,297 +87,297 @@
                     <span class="close" onclick="closeModal('modal4')">&times;</span>
                     <h3>使い方</h3>
                     <p>/delete</p>
-                    <p><strong>使い方</strong><br>/delete (削除する数) (ユーザーを指定[任意])</p>
+                    <p><strong>使い方</strong><br>/delete [count]</p>
 
                 </div>
             </div>
             
             <div class="card">
-                <h3>/taiko</h3>
+                <h3>/select taiko</h3>
                 <p>太鼓の達人ランダム選曲</p>
                 <button class="detail-btn" onclick="openModal('modal5')">詳細を見る</button>
             </div>
             <div id="modal5" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal5')">&times;</span>
-                    <h3>/taiko</h3>
+                    <h3>/select taiko</h3>
                     <p>太鼓の達人現行収録曲からランダム選曲をします</p>
-                    <p><strong>使い方</strong><br>/taiko (選曲したい数) (全曲,★10を選択)</p>
+                    <p><strong>使い方</strong><br>/select taiko [count][選曲条件]</p>
 
                 </div>
             </div>
             
             <div class="card">
-                <h3>/prsk</h3>
+                <h3>/select prsk</h3>
                 <p>プロセカランダム選曲</p>
                 <button class="detail-btn" onclick="openModal('modal6')">詳細を見る</button>
             </div>
             <div id="modal6" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal6')">&times;</span>
-                    <h3>/prsk</h3>
+                    <h3>/select prsk</h3>
                     <p>プロセカ現行収録曲からランダム選曲をします</p>
-                    <p><strong>使い方</strong><br>/prsk (選曲したい数) (MASTER、APPENDを選択)</p>
+                    <p><strong>使い方</strong><br>/select prsk [count][選曲条件]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/chunithm</h3>
+                <h3>/select chunithm</h3>
                 <p>ウニランダム選曲</p>
                 <button class="detail-btn" onclick="openModal('modal7')">詳細を見る</button>
             </div>
             <div id="modal7" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal7')">&times;</span>
-                    <h3>/chunithm</h3>
+                    <h3>/select chunithm</h3>
                     <p>チュウニズム現行収録曲からランダム選曲をします</p>
-                    <p><strong>使い方</strong><br>/chunithm (選曲したい数) (全曲、ORIGINAL、WE&ULTIMAを選択)</p>
+                    <p><strong>使い方</strong><br>/select chunithm [count][選曲条件]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/youtube-play</h3>
-                <p>youtube動画を再生</p>
+                <h3>/select maimai</h3>
+                <p>maimaiランダム選曲</p>
                 <button class="detail-btn" onclick="openModal('modal8')">詳細を見る</button>
             </div>
             <div id="modal8" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal8')">&times;</span>
-                    <h3>/youtube-play</h3>
-                    <p>ボイチャでyoutube動画を再生できます<br>一時停止、再開、ループも可能</p>
-                    <p><strong>使い方</strong><br>/youtube-play (URL)</p>
+                    <h3>/select maimai</h3>
+                    <p>maimai現行収録曲からランダム選曲をします</p>
+                    <p><strong>使い方</strong><br>/select maimai [count][選曲条件]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/5000choyen</h3>
-                <p>5000兆円欲しい風画像</p>
+                <h3>/select ongeki</h3>
+                <p>オンゲキランダム選曲</p>
                 <button class="detail-btn" onclick="openModal('modal9')">詳細を見る</button>
             </div>
             <div id="modal9" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal9')">&times;</span>
-                    <h3>/5000choyen</h3>
-                    <p>5000兆円欲しい!!風の画像を生成します</p>
-                    <p><strong>使い方</strong><br>/5000choyen (上の文字列) (下の文字列)</p>
+                    <h3>/select ongeki</h3>
+                    <p>オンゲキ現行収録曲からランダム選曲をします</p>
+                    <p><strong>使い方</strong><br>/select ongeki [count][選曲条件]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/ping</h3>
-                <p>ping値の表示</p>
+                <h3>/kick</h3>
+                <p>ユーザーのKICK</p>
                 <button class="detail-btn" onclick="openModal('modal10')">詳細を見る</button>
             </div>
             <div id="modal10" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal10')">&times;</span>
-                    <h3>/ping</h3>
-                    <p>botのping値[WebSocket Ping、API-Endpoint Ping]</p>
-                    <p><strong>使い方</strong><br>/ping</p>
+                    <h3>/kick</h3>
+                    <p>指定したユーザーをKick</p>
+                    <p><strong>使い方</strong><br>/kick [@user][reason]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/serverinfo</h3>
-                <p>サーバー情報の表示</p>
+                <h3>/ban</h3>
+                <p>ユーザーのBAN</p>
                 <button class="detail-btn" onclick="openModal('modal11')">詳細を見る</button>
             </div>
             <div id="modal11" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal11')">&times;</span>
-                    <h3>/serverinfo</h3>
-                    <p>ユーザー数、チャンネル数などのサーバー情報の表示</p>
-                    <p><strong>使い方</strong><br>/serverinfo</p>
+                    <h3>/ban</h3>
+                    <p>指定したユーザーをBAN</p>
+                    <p><strong>使い方</strong><br>/ban [@user]×3 [reason]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/userinfo</h3>
-                <p>ユーザー情報の表示</p>
+                <h3>/unban</h3>
+                <p>BANの解除</p>
                 <button class="detail-btn" onclick="openModal('modal12')">詳細を見る</button>
             </div>
             <div id="modal12" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal12')">&times;</span>
-                    <h3>/userinfo</h3>
-                    <p>サーバーにいるかどうかに関係なくユーザー情報の表示ができます</p>
-                    <p><strong>使い方</strong><br>/userinfo (メンションかID)</p>
+                    <h3>/unban</h3>
+                    <p>指定したユーザーのBAN解除</p>
+                    <p><strong>使い方</strong><br>/unban [@user][reason]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/fake-tokengen</h3>
-                <p>FakeToken生成</p>
+                <h3>/spoofing</h3>
+                <p>なりすまし</p>
                 <button class="detail-btn" onclick="openModal('modal13')">詳細を見る</button>
             </div>
             <div id="modal13" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal13')">&times;</span>
-                    <h3>/fake-tokengen</h3>
-                    <p>ユーザーtokenっぽいのを生成</p>
-                    <p><strong>使い方</strong><br>/fake-tokengen (個数)</p>
+                    <h3>/spoofing</h3>
+                    <p>指定したユーザーになりすましてメッセージ送信</p>
+                    <p><strong>使い方</strong><br>/spoofing [@user][message][ファイル][名前]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/fake-nitro</h3>
-                <p>FakeNITROリンク生成</p>
+                <h3>/info user</h3>
+                <p>ユーザー情報表示</p>
                 <button class="detail-btn" onclick="openModal('modal14')">詳細を見る</button>
             </div>
             <div id="modal14" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal14')">&times;</span>
-                    <h3>/fake-nitro</h3>
-                    <p>FakeのNitroギフトリンクを生成します</p>
-                    <p><strong>使い方</strong><br>/fake-nitro (個数)</p>
+                    <h3>/info user</h3>
+                    <p>ユーザー情報の表示</p>
+                    <p><strong>使い方</strong><br>/info user [@user]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/translate</h3>
-                <p>他言語への翻訳</p>
+                <h3>/info server</h3>
+                <p>サーバー情報の表示</p>
                 <button class="detail-btn" onclick="openModal('modal15')">詳細を見る</button>
             </div>
             <div id="modal15" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal15')">&times;</span>
-                    <h3>/translate</h3>
-                    <p>日本語を英語、中国語、韓国語、ロシア語に翻訳</p>
-                    <p><strong>使い方</strong><br>/translate (文字列) (言語を選択)</p>
+                    <h3>/info server</h3>
+                    <p>サーバー情報の表示</p></p>
+                    <p><strong>使い方</strong><br>/info server</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/qr</h3>
-                <p>QRコード変換</p>
+                <h3>/hiroyuki</h3>
+                <p>ひろゆきmp3に変換</p>
                 <button class="detail-btn" onclick="openModal('modal16')">詳細を見る</button>
             </div>
             <div id="modal16" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal16')">&times;</span>
-                    <h3>/qr</h3>
-                    <p>入力したURLや文字列をQRコードに変換</p>
-                    <p><strong>使い方</strong><br>/qr (文字列)</p>
+                    <h3>/hiroyuki</h3>
+                    <p>指定した文をひろゆきボイスで変換</p>
+                    <p><strong>使い方</strong><br>/hiroyuki (message)</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/ip</h3>
-                <p>IPアドレス検索</p>
+                <h3>/create role</h3>
+                <p>ロール作成</p>
                 <button class="detail-btn" onclick="openModal('modal17')">詳細を見る</button>
             </div>
             <div id="modal17" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal17')">&times;</span>
-                    <h3>/ip</h3>
-                    <p>IPアドレスの情報を検索します</p>
-                    <p><strong>使い方</strong><br>/ip (検索したいIPアドレス)</p>
+                    <h3>/create role</h3>
+                    <p>ロールを作成</p>
+                    <p><strong>使い方</strong><br>/role [name][color]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/whois</h3>
-                <p>whois検索</p>
+                <h3>/create channel</h3>
+                <p>チャンネル作成</p>
                 <button class="detail-btn" onclick="openModal('modal18')">詳細を見る</button>
             </div>
             <div id="modal18" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal18')">&times;</span>
-                    <h3>/whois</h3>
-                    <p>ドメインのwhois検索を行います</p>
-                    <p><strong>使い方</strong><br>/whois (検索したいドメイン)</p>
+                    <h3>/create channel</h3>
+                    <p>チャンネルを作成</p>
+                    <p><strong>使い方</strong><br>/create channel [name][topic]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/search-gif</h3>
-                <p>GIFランダム検索</p>
+                <h3>/create password</h3>
+                <p>パスワード生成</p>
                 <button class="detail-btn" onclick="openModal('modal19')">詳細を見る</button>
             </div>
             <div id="modal19" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal19')">&times;</span>
-                    <h3>/search-gif</h3>
-                    <p>入力したものに関連するGIFをランダムに送信します</p>
-                    <p><strong>使い方</strong><br>/search-gif (検索したいもの)</p>
+                    <h3>/create password</h3>
+                    <p>ランダムなパスワードを生成</p>
+                    <p><strong>使い方</strong><br>/create password [count]</p>
                 </div>
             </div>
             <div class="card">
                 <h3>/dice</h3>
-                <p>サイコロを振る</p>
+                <p>多面ダイスを振る</p>
                 <button class="detail-btn" onclick="openModal('modal20')">詳細を見る</button>
             </div>
             <div id="modal20" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal20')">&times;</span>
                     <h3>/dice</h3>
-                    <p>サイコロをふる(詳細とは)</p>
-                    <p><strong>使い方</strong><br>/dice</p>
+                    <p>多面ダイスを振る</p>
+                    <p><strong>使い方</strong><br>/dice [count][max]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/remove</h3>
-                <p>画像の背景除去</p>
+                <h3>/invite</h3>
+                <p>botの招待</p>
                 <button class="detail-btn" onclick="openModal('modal21')">詳細を見る</button>
             </div>
             <div id="modal21" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal21')">&times;</span>
-                    <h3>/remove</h3>
-                    <p>アップロードした画像の背景を除去します</p>
-                    <p><strong>使い方</strong><br>/remove [画像をアップロード]</p>
+                    <h3>/invite</h3>
+                    <p>BOTの招待リンクを表示</p>
+                    <p><strong>使い方</strong><br>/invite</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/rolecreate</h3>
-                <p>ロールを作成</p>
+                <h3>/omikuji</h3>
+                <p>おみくじ</p>
                 <button class="detail-btn" onclick="openModal('modal22')">詳細を見る</button>
             </div>
             <div id="modal22" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal22')">&times;</span>
-                    <h3>/rokecreate</h3>
-                    <p>名前(任意で色)を指定してロールを作成します</p>
-                    <p><strong>使い方</strong><br>/rolecreate (名前) (色[任意])</p>
+                    <h3>/omikuji</h3>
+                    <p>おみくじを引く</p>
+                    <p><strong>使い方</strong><br>/omikuji</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/rolecount</h3>
-                <p>全ロールを表示</p>
+                <h3>/prime</h3>
+                <p>素数判定</p>
                 <button class="detail-btn" onclick="openModal('modal23')">詳細を見る</button>
             </div>
             <div id="modal23" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal23')">&times;</span>
-                    <h3>/rolecount</h3>
-                    <p>サーバー内のロールをすべて表示</p>
-                    <p><strong>使い方</strong><br>/rolecount</p>
+                    <h3>/prime</h3>
+                    <p>素数かどうかを判定します</p>
+                    <p><strong>使い方</strong><br>/prime [number]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/serverlist</h3>
-                <p>えむの参加サーバー一覧</p>
+                <h3>/qr</h3>
+                <p>QRコード変換</p>
                 <button class="detail-btn" onclick="openModal('modal24')">詳細を見る</button>
             </div>
             <div id="modal24" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal24')">&times;</span>
-                    <h3>/serverlist</h3>
-                    <p>えむbotが参加しているサーバーを一覧で表示します</p>
-                    <p><strong>使い方</strong><br>/severlist</p>
+                    <h3>/qr</h3>
+                    <p>URLをQRコードに変換します</p>
+                    <p><strong>使い方</strong><br>/qr [url]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/shorturl</h3>
-                <p>URLの短縮</p>
+                <h3>/slowmode</h3>
+                <p>低速の設定</p>
                 <button class="detail-btn" onclick="openModal('modal25')">詳細を見る</button>
             </div>
             <div id="modal25" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal25')">&times;</span>
-                    <h3>/shorturl</h3>
-                    <p>x.gdを使ったURLの短縮化</p>
-                    <p><strong>使い方</strong><br>/shorturl (短縮したいURL)</p>
+                    <h3>/slowmode</h3>
+                    <p>低速モードの時間設定</p>
+                    <p><strong>使い方</strong><br>/slowmode [time]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/image-to-link</h3>
-                <p>画像のURL化</p>
+                <h3>/ticket</h3>
+                <p>チケットコマンド</p>
                 <button class="detail-btn" onclick="openModal('modal26')">詳細を見る</button>
             </div>
             <div id="modal26" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal26')">&times;</span>
-                    <h3>/image-to-link</h3>
-                    <p>画像をURLにする</p>
-                    <p><strong>使い方</strong><br>/image-to-link [画像をアップロード]</p>
+                    <h3>/ticket</h3>
+                    <p>チケットコマンドです</p>
+                    <p><strong>使い方</strong><br>/ticket</p>
                 </div>
             </div>
             <div class="card">
@@ -390,111 +390,176 @@
                     <span class="close" onclick="closeModal('modal27')">&times;</span>
                     <h3>/timer</h3>
                     <p>タイマーを起動<br>分を0にすると0分◯秒での起動もできます</p>
-                    <p><strong>使い方</strong><br>/timer (分) (秒[任意])</p>
+                    <p><strong>使い方</strong><br>/timer [minutes][seconds]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/pi</h3>
-                <p>円周率を表示</p>
+                <h3>/totsu-shi</h3>
+                <p>突然の死</p>
                 <button class="detail-btn" onclick="openModal('modal28')">詳細を見る</button>
             </div>
             <div id="modal28" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal28')">&times;</span>
-                    <h3>/pi</h3>
-                    <p>指定した桁数の円周率を表示(1000桁まで)</p>
-                    <p><strong>使い方</strong><br>/pi (桁数)</p>
+                    <h3>/totsu-shi</h3>
+                    <p>突然の死ジェネレーター</p>
+                    <p><strong>使い方</strong><br>/totsu-shi [content]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/kon</h3>
-                <p>コンギョを送信</p>
+                <h3>/translate</h3>
+                <p>翻訳コマンド</p>
                 <button class="detail-btn" onclick="openModal('modal29')">詳細を見る</button>
             </div>
             <div id="modal29" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal29')">&times;</span>
-                    <h3>/kon</h3>
-                    <p>コンギョのURLを送信します</p>
-                    <p><strong>使い方</strong><br>/kon</p>
+                    <h3>/translate</h3>
+                    <p>日本語を変換[英、中、韓、露]</p>
+                    <p><strong>使い方</strong><br>/translate [text][language]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/omikuji</h3>
-                <p>おみくじ</p>
+                <h3>/url short</h3>
+                <p>URL短縮</p>
                 <button class="detail-btn" onclick="openModal('modal30')">詳細を見る</button>
             </div>
             <div id="modal30" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal30')">&times;</span>
-                    <h3>/omikuji</h3>
-                    <p>1日1回おみくじを引けます</p>
-                    <p><strong>使い方</strong><br>/omikuji</p>
+                    <h3>/url short</h3>
+                    <p>URLを短縮します</p>
+                    <p><strong>使い方</strong><br>/url short [url]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/prime</h3>
-                <p>素数判定</p>
+                <h3>/url extract</h3>
+                <p>URL抽出</p>
                 <button class="detail-btn" onclick="openModal('modal31')">詳細を見る</button>
             </div>
             <div id="modal31" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal31')">&times;</span>
-                    <h3>/prime</h3>
-                    <p>素数かどうかの判定を行います</p>
-                    <p><strong>使い方</strong><br>/prime (判定したい数)<br>ネタ回答を1個隠してます</p>
+                    <h3>/url extract</h3>
+                    <p>URLの抽出(テキスト、ファイル)</p>
+                    <p><strong>使い方</strong><br>/url extract [text][remove][domainonly][file]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/メッセージ自動展開</h3>
-                <p>メッセージ展開オンオフ</p>
+                <h3>/url viruscheck</h3>
+                <p>URLの危険性チェック</p>
                 <button class="detail-btn" onclick="openModal('modal32')">詳細を見る</button>
             </div>
             <div id="modal32" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal32')">&times;</span>
-                    <h3>/メッセージ自動展開</h3>
-                    <p>メッセージの自動展開機能のオンオフ</p>
-                    <p><strong>使い方</strong><br>/メッセージの自動展開 (オンorオフ)</p>
+                    <h3>/url viruscheck</h3>
+                    <p>URLの危険性チェック</p>
+                    <p><strong>使い方</strong><br>/url viruscheck [url]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/yahoonews</h3>
-                <p>ヤフーニュース</p>
+                <h3>/mcstatus</h3>
+                <p>マイクラステータス</p>
                 <button class="detail-btn" onclick="openModal('modal33')">詳細を見る</button>
             </div>
             <div id="modal33" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal33')">&times;</span>
-                    <h3>/yahoonews</h3>
-                    <p>ヤフーニュースを取得します</p>
-                    <p><strong>使い方</strong><br>/yahoo news</p>
+                    <h3>/mcstatus</h3>
+                    <p>マイクラのサーバーのステータスを表示</p>
+                    <p><strong>使い方</strong><br>/mcstatus [ip][port]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/google</h3>
-                <p>Google検索</p>
+                <h3>/convert</h3>
+                <p>文字変換</p>
                 <button class="detail-btn" onclick="openModal('modal34')">詳細を見る</button>
             </div>
             <div id="modal34" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal34')">&times;</span>
-                    <h3>/google</h3>
-                    <p>Google検索を行います。</p>
-                    <p><strong>使い方</strong><br>/google</p>
+                    <h3>/convert</h3>
+                    <p>文字変換(ルーン、フェニキア、ヒエログリフ、逆読み、アナグラム、怪日本語、ﾒﾝﾍ)。</p>
+                    <p><strong>使い方</strong><br>/convert [text][type]</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/verify</h3>
-                <p>認証パネルの設置</p>
+                <h3>/fake nitro</h3>
+                <p>偽Nitro生成</p>
                 <button class="detail-btn" onclick="openModal('modal35')">詳細を見る</button>
             </div>
             <div id="modal35" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal35')">&times;</span>
-                    <h3>/verify</h3>
-                    <p>ボタンを押すだけの簡易認証パネルの設置</p>
-                    <p><strong>使い方</strong><br>/verify (ロールを選択)</p>
+                    <h3>/fake nitro</h3>
+                    <p>偽Nitro生成(ギフト、プロモ)</p>
+                    <p><strong>使い方</strong><br>/fake nitro [count]</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>/fake token</h3>
+                <p>偽Token生成</p>
+                <button class="detail-btn" onclick="openModal('modal36')">詳細を見る</button>
+            </div>
+            <div id="modal36" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal36')">&times;</span>
+                    <h3>/fake token</h3>
+                    <p>偽Token生成</p>
+                    <p><strong>使い方</strong><br>/fake token [count]</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>/expand-settings</h3>
+                <p>自動展開設定</p>
+                <button class="detail-btn" onclick="openModal('modal37')">詳細を見る</button>
+            </div>
+            <div id="modal37" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal37')">&times;</span>
+                    <h3>/expand settings</h3>
+                    <p>メッセー位の自動展開機能の設定</p>
+                    <p><strong>使い方</strong><br>/expand-settings [on-off]</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>ひろゆきMP3変換</h3>
+                <p>ひろゆきボイスのMP3に変換</p>
+                <button class="detail-btn" onclick="openModal('modal38')">詳細を見る</button>
+            </div>
+            <div id="modal38" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal38')">&times;</span>
+                    <h3>ひろゆきMP3変換</h3>
+                    <p>ひろゆきボイスのMP3に変換するコンテキストメニュー</p>
+                    <p><strong>使い方</strong><br>ひろゆきMP3変換</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>英語に翻訳</h3>
+                <p>文を英語に翻訳</p>
+                <button class="detail-btn" onclick="openModal('modal39')">詳細を見る</button>
+            </div>
+            <div id="modal39" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal39')">&times;</span>
+                    <h3>英語に翻訳</h3>
+                    <p>英語に翻訳するコンテキストメニュー</p>
+                    <p><strong>使い方</strong><br>/英語に翻訳</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>^snipe</h3>
+                <p>削除されたメッセージを復元</p>
+                <button class="detail-btn" onclick="openModal('modal38')">詳細を見る</button>
+            </div>
+            <div id="modal38" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal38')">&times;</span>
+                    <h3>^snipe</h3>
+                    <p>チャンネルで最後に削除されたメッセージを復元</p>
+                    <p><strong>使い方</strong><br>^snipe</p>
                 </div>
             </div>
         </div>
