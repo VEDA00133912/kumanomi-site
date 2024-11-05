@@ -125,12 +125,11 @@ main {
 }
 
 footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background: #f9f9f9;
-  background-color: #f9f9f9;
+  background-color: gray;
   color: gray;
   text-align: center; 
   padding: 10px 0; 
