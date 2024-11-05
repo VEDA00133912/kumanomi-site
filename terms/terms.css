@@ -125,10 +125,12 @@ main {
 }
 
 footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: gray;
-  text-align: center; 
-  padding: 10px 0; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #f9f9f9;
+    background-color: #f9f9f9;
+    color: gray;
+    text-align: center;
+    padding: 10px 0;
 }
