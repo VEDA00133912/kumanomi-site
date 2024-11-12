@@ -20,7 +20,3 @@ window.addEventListener('scroll', function() {
 document.getElementById('back-to-top').addEventListener('click', function() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-
-  if (window.location.pathname === "/kumanomi-site/commandlist/commands.html") {
-    window.history.replaceState({}, "", "/kumanomi-site/commands");
-  }
