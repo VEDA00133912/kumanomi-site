@@ -11,3 +11,6 @@ document.getElementById('back-to-top').addEventListener('click', function() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
+  if (window.location.pathname === "/kumanomi-site/") {
+    window.history.replaceState({}, "", "/kumanomi-site/home");
+  }
