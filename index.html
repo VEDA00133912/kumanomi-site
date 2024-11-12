@@ -48,5 +48,11 @@
         </footer>
     </main>
     <script src="script.js" type="text/javascript"></script>
+    <script>      
+        if (window.location.pathname.endsWith(".html")) {
+        const newPath = window.location.pathname.replace(".html", "");
+        window.history.replaceState({}, "", newPath);
+      }
+    </script>
 </body>
 </html>
