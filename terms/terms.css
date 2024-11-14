@@ -65,7 +65,8 @@ main {
 
 .terms h3, .policy h3 {
   font-family: 'Mochiy Pop One', sans-serif;
-  color: #ff8c00; 
+  font-size: 24px;
+  color: #ff8c00;
   margin-bottom: 20px;
   -webkit-text-stroke: 1px Black;
 }
