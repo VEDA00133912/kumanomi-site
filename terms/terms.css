@@ -68,7 +68,7 @@ main {
   font-size: 24px;
   color: #ff8c00;
   margin-bottom: 20px;
-  -webkit-text-stroke: 1px Black;
+  -webkit-text-stroke: 1px #454343;
 }
 
 .terms-box, .policy-box {
