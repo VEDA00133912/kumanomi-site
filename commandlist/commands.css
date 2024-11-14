@@ -65,7 +65,8 @@ h2 {
   font-size: 24px;
   margin-bottom: 20px;
   color: #ff8c00;
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'Mochiy Pop One', sans-serif;
+  -webkit-text-stroke: 1px Black;
 }
 
 .card-container {
