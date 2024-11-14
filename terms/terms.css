@@ -67,6 +67,7 @@ main {
   font-family: 'Mochiy Pop One', sans-serif;
   color: #ff8c00; 
   margin-bottom: 20px;
+  -webkit-text-stroke: 1px Black;
 }
 
 .terms-box, .policy-box {
