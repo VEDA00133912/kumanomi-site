@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333333;
+}
+
+header {
+  background-color: #fcc172;
+  padding: 20px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #ff8c00;
+  font-family: 'Mochiy Pop One', sans-serif;
+  -webkit-text-stroke: 1px Black;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.error h2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 36px;
+  color: #ff8c00;
+  margin-bottom: 20px;
+  -webkit-text-stroke: 1px Black; /* h1と同じように縁取り */
+}
+
+.error p {
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.back-home {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff8c00;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-home:hover {
+  background-color: #e07b00;
+}
+
+footer {
+  width: 100%;
+  background-color: #f9f9f9;
+  color: gray;
+  text-align: center;
+  padding: 10px 0;
+}
