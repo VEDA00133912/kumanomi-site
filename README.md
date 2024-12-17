@@ -6,5 +6,6 @@
 - コマンド一覧
 - 利用規約、プライバシーポリシー
 - 404エラーページ
+- ステータスページ
 
 ![image](https://github.com/user-attachments/assets/bb9b3127-6b97-4300-a46e-b81f2501f20b)
