@@ -8,4 +8,8 @@
 - 404エラーページ
 - ステータスページ
 
-![image](https://github.com/user-attachments/assets/bb9b3127-6b97-4300-a46e-b81f2501f20b)
+## ホーム
+![image](https://github.com/user-attachments/assets/b8e7aa2f-511c-412b-9d1d-281872f86f78)
+
+## ステータスページ
+![image](https://github.com/user-attachments/assets/b76f20de-db6a-408b-9c27-1ecfbc85c63f)
