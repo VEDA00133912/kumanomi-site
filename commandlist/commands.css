@@ -138,9 +138,6 @@ h2 {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
   animation: fadeIn 0.3s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .modal.show {
@@ -167,7 +164,7 @@ h2 {
 
 .modal-content {
   background-color: #ffffff;
-  margin: auto;
+  margin: 50% auto;
   padding: 20px;
   border: 1px solid #eaeaea;
   width: 80%;
