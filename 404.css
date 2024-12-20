@@ -60,21 +60,6 @@ main {
   text-align: center;
 }
 
-.error h2 {
-  font-family: 'Mochiy Pop One', sans-serif;
-  font-size: 36px;
-  color: #ff8c00;
-  margin-bottom: 20px;
-  -webkit-text-stroke: 1px #454343;
-}
-
-.error p {
-  font-family: 'Kosugi Maru', sans-serif;
-  color: #333333;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
 .error-image {
   width: 50%; 
   max-width: 600px; 
