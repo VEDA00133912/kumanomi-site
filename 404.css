@@ -76,13 +76,13 @@ main {
 }
 
 .error-image {
-  margin-top: 20px;
-  max-width: 100%; 
-  height: auto;  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 50%; 
+  max-width: 600px; 
+  height: auto; 
+  display: block; 
+  margin: 20px auto;
 }
+
 
 .back-home {
   display: inline-block;
