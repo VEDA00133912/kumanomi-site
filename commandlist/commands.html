@@ -40,6 +40,7 @@
     </div>
     <main>
         <h2>コマンド一覧</h2>
+        <p>オレンジがスラッシュコマンド, 緑がコンテキストメニューです</p>
         <div id="back-to-top">
             <img src="../assets/up.png" alt="Back to top">
             <span>上に戻る↑</span>
@@ -95,8 +96,8 @@
             <div id="modal4" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal4')">&times;</span>
-                    <h3>使い方</h3>
-                    <p>/delete</p>
+                    <h3>/delete</h3>
+                    <p>指定した数だけメッセージを削除します</p>
                     <p><strong>使い方</strong><br>/delete [count]</p>
                 </div>
             </div>
@@ -208,16 +209,16 @@
                 </div>
             </div>
             <div class="card">
-                <h3>/setting-generater</h3>
+                <h3>/setting-slowmode</h3>
                 <p>低速設定</p>
                 <button class="detail-btn" onclick="openModal('modal13')">詳細を見る</button>
             </div>
             <div id="modal13" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal13')">&times;</span>
-                    <h3>/setting-generater</h3>
+                    <h3>/setting-slowmode</h3>
                     <p>低速モードの時間を設定します</p>
-                    <p><strong>使い方</strong><br>/setting-generater [time]</p>
+                    <p><strong>使い方</strong><br>/setting-slowmode [time]</p>
                 </div>
             </div>
             <div class="card">
@@ -260,16 +261,16 @@
                 </div>
             </div>
             <div class="card">
-                <h3>/search npm</h3>
+                <h3>/hiroyuki</h3>
                 <p>ひろゆき.mp3生成</p>
                 <button class="detail-btn" onclick="openModal('modal17')">詳細を見る</button>
             </div>
             <div id="modal17" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal17')">&times;</span>
-                    <h3>/search npm</h3>
+                    <h3>/hiroyuki</h3>
                     <p>指定した文章をひろゆきボイスに変換します</p>
-                    <p><strong>使い方</strong><br>/search npm [text]<p>
+                    <p><strong>使い方</strong><br>/hiroyuki [text]<p>
                 </div>
             </div>
             <div class="card">
@@ -338,14 +339,14 @@
                 </div>
             </div>
             <div class="card">
-                <h3>/embedbuilder/h3>
+                <h3>/embedbuilder</h3>
                 <p>埋め込み作成</p>
                 <button class="detail-btn" onclick="openModal('modal23')">詳細を見る</button>
             </div>
             <div id="modal23" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal23')">&times;</span>
-                    <h3>/embedbuilder/h3>
+                    <h3>/embedbuilder</h3>
                     <p>指定された内容で埋め込みメッセージを作成します</p>
                     <p><strong>使い方</strong><br>/embedbuilder [modal]</p>
                 </div>
@@ -559,28 +560,28 @@
                 </div>
             </div>
             <div class="card">
-                <h3>/top<h3>
+                <h3>/top</h3>
                 <p>トップメッセージ</p>
                 <button class="detail-btn" onclick="openModal('modal40')">詳細を見る</button>
             </div>
             <div id="modal40" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal40')">&times;</span>
-                    <h3>/top<h3>
+                    <h3>/top</h3>
                     <p>そのチャンネルの一番最初のメッセージを取得します</p>
                     <p><strong>使い方</strong><br>/top</p>
                 </div>
             </div>
             <div class="card">
-                <h3>/yahoonews/h3>
-                <p>Yahooニュース/p>
+                <h3>/yahoonews</h3>
+                <p>Yahooニュース</p>
                 <button class="detail-btn" onclick="openModal('modal41')">詳細を見る</button>
             </div>
             <div id="modal41" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal('modal41')">&times;</span>
-                    <h3>/cjp</h3>
-                    <p>Yahooニュースを取得して表示/p>
+                    <h3>/yahoonews</h3>
+                    <p>Yahooニュースを取得して表示</p>
                     <p><strong>使い方</strong><br>/yahoonews</p>
                 </div>
             </div>
@@ -608,6 +609,59 @@
                     <h3>/admin-serverlist</h3>
                     <p>BOTが参加しているサーバーをすべて表示します</p>
                     <p><strong>使い方</strong><br>/admin-serverlist [text]</p>
+                </div>
+            </div>
+            <!--contextmenu-->
+            <div class="ccard">
+                <h3>Make it a Quote<br>(モノクロ)</h3>
+                <p>モノクロMiQ</p>
+                <button class="detail-btn" onclick="openModal('cmodal1')">詳細を見る</button>
+            </div>
+            <div id="cmodal1" class="cmodal">
+                <div class="cmodal-content">
+                    <span class="close" onclick="closeModal('cmodal1')">&times;</span>
+                    <h3>Make it a Quote(モノクロ)</h3>
+                    <p>モノクロでMake it a Quoteを生成するコンテキストメニュー</p>
+                    <p><strong>使い方</strong><br>Make it a Quote(モノクロ)</p>
+                </div>
+            </div>
+            <div class="ccard">
+                <h3>Make it a Quote<br>(カラー)</h3>
+                <p>カラーMiQ</p>
+                <button class="detail-btn" onclick="openModal('cmodal2')">詳細を見る</button>
+            </div>
+            <div id="cmodal2" class="cmodal">
+                <div class="cmodal-content">
+                    <span class="close" onclick="closeModal('cmodal2')">&times;</span>
+                    <h3>Make it a Quote(カラー)</h3>
+                    <p>カラーでMake it a Quoteを生成するコンテキストメニュー</p>
+                    <p><strong>使い方</strong><br>Make it a Quote(カラー)</p>
+                </div>
+            </div>
+            <div class="ccard">
+                <h3>日本語に翻訳</h3>
+                <p>翻訳(ja)</p>
+                <button class="detail-btn" onclick="openModal('cmodal3')">詳細を見る</button>
+            </div>
+            <div id="cmodal3" class="cmodal">
+                <div class="cmodal-content">
+                    <span class="close" onclick="closeModal('cmodal3')">&times;</span>
+                    <h3>日本語に翻訳</h3>
+                    <p>他言語から日本語に翻訳をします</p>
+                    <p><strong>使い方</strong><br>日本語に翻訳</p>
+                </div>
+            </div>
+            <div class="ccard">
+                <h3>英語に翻訳</h3>
+                <p>翻訳(en)</p>
+                <button class="detail-btn" onclick="openModal('cmodal4')">詳細を見る</button>
+            </div>
+            <div id="cmodal4" class="cmodal">
+                <div class="cmodal-content">
+                    <span class="close" onclick="closeModal('cmodal4')">&times;</span>
+                    <h3>英語に翻訳</h3>
+                    <p>他言語から英語に翻訳をします</p>
+                    <p><strong>使い方</strong><br>英語に翻訳</p>
                 </div>
             </div>
         </div>
