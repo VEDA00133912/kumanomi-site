@@ -22,7 +22,7 @@ header h1 {
   font-size: 24px;
   color: #ff8c00; 
   font-family: 'Mochiy Pop One', sans-serif;
-  -webkit-text-stroke: 1px Black; 
+  -webkit-text-stroke: 0.5px Black; 
 }
 
 nav ul {
@@ -68,7 +68,7 @@ main {
   font-size: 24px;
   color: #ff8c00;
   margin-bottom: 20px;
-  -webkit-text-stroke: 1px #454343;
+  -webkit-text-stroke: 0.5px #454343;
 }
 
 .terms-box, .policy-box {
